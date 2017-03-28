@@ -64,6 +64,16 @@
     }
 }
 
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    int index = scrollView.contentOffset.x / self.width;
+    // 修复scrollView在swip手势下，手势开关不生效的问题
+    if (index == _imagesArray.count - 1) {
+        _imagesScrollView.isOpen = NO;
+    } else {
+        _imagesScrollView.isOpen = YES;
+    }
+}
+
 - (void)pageNumberViewAnimation:(CGFloat)xOffset {
     // 越过一半就算下一页的页码
     int page = (int)(xOffset / self.imagesScrollView.width + 0.5);
