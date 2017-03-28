@@ -47,10 +47,8 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat xOffset = scrollView.contentOffset.x;
-    NSLog(@"%f", xOffset);
     // 设置偏移
     int index = xOffset / self.width;
-    NSLog(@"index: %d", index);
     UIImageView *imageView = scrollView.subviews[index];
     CGRect frame = imageView.frame;
     frame.origin.x = index * self.width + xOffset / 2 - (index * self.width) / 2;
@@ -77,7 +75,7 @@
         // 越过一半的动画参数
         tmpOffset = xOffset - page * self.imagesScrollView.width;
     } else {
-        // 没约过一半的动画餐厨
+        // 没约过一半的动画参数
         tmpOffset = xOffset - index * self.imagesScrollView.width;
     }
     self.pageView.layer.transform = CATransform3DMakeRotation(tmpOffset * M_PI / self.width, 0, 1, 0);
