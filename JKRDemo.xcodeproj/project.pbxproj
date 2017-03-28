@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D56B191E88B00200980858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B181E88B00200980858 /* main.m */; };
+		43D56B1C1E88B00200980858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B1B1E88B00200980858 /* AppDelegate.m */; };
+		43D56B241E88B00300980858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D56B231E88B00300980858 /* Assets.xcassets */; };
+		43D56B271E88B00300980858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D56B251E88B00300980858 /* LaunchScreen.storyboard */; };
+		43D56B321E88B00300980858 /* JKRDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B311E88B00300980858 /* JKRDemoTests.m */; };
+		43D56B3D1E88B00300980858 /* JKRDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B3C1E88B00300980858 /* JKRDemoUITests.m */; };
+		43D56B4C1E88B03800980858 /* AppDelegate+JKRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B4B1E88B03800980858 /* AppDelegate+JKRRootViewController.m */; };
+		43D56B4F1E88B06400980858 /* JKRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B4E1E88B06400980858 /* JKRNavigationViewController.m */; };
+		43D56B521E88B07400980858 /* JKRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B511E88B07400980858 /* JKRHomeViewController.m */; };
+		43D56B551E88B08000980858 /* JKRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B541E88B08000980858 /* JKRMainViewController.m */; };
+		43D56B581E88BC6C00980858 /* UIView+JKR_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B571E88BC6C00980858 /* UIView+JKR_Frame.m */; };
+		43D56B5C1E88C0D200980858 /* JKRProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B5B1E88C0D200980858 /* JKRProjectViewController.m */; };
+		43D56B5F1E88C0DD00980858 /* JKRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B5E1E88C0DD00980858 /* JKRDetailViewController.m */; };
+		43D56B621E88C0E500980858 /* JKRCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B611E88C0E500980858 /* JKRCommentViewController.m */; };
+		43D56B651E88C16500980858 /* JKRTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B641E88C16500980858 /* JKRTitleView.m */; };
+		43D56B731E88DCE800980858 /* JKRProjectDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B721E88DCE800980858 /* JKRProjectDetailView.m */; };
+		43D56B761E88DD9B00980858 /* JKRProjectTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B751E88DD9B00980858 /* JKRProjectTopView.m */; };
+		43D56B791E88E00300980858 /* JKRProjectImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B781E88E00300980858 /* JKRProjectImagesView.m */; };
+		43D56B7C1E88E04900980858 /* JKRProjectBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B7B1E88E04900980858 /* JKRProjectBottomView.m */; };
+		43D56B821E88F23700980858 /* JKRProjectOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B811E88F23700980858 /* JKRProjectOtherView.m */; };
+		43D56B881E88FEDA00980858 /* JKRCanCloseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B871E88FEDA00980858 /* JKRCanCloseScrollView.m */; };
+		43D56B8B1E89000300980858 /* JKRImagesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B8A1E89000300980858 /* JKRImagesScrollView.m */; };
+		43D56B921E89FAC600980858 /* JKRPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56B911E89FAC600980858 /* JKRPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D56B2E1E88B00300980858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D56B0C1E88B00200980858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D56B131E88B00200980858;
+			remoteInfo = JKRDemo;
+		};
+		43D56B391E88B00300980858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D56B0C1E88B00200980858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D56B131E88B00200980858;
+			remoteInfo = JKRDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D56B141E88B00200980858 /* JKRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56B181E88B00200980858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43D56B1A1E88B00200980858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43D56B1B1E88B00200980858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43D56B231E88B00300980858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43D56B261E88B00300980858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43D56B281E88B00300980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56B2D1E88B00300980858 /* JKRDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56B311E88B00300980858 /* JKRDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRDemoTests.m; sourceTree = "<group>"; };
+		43D56B331E88B00300980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56B381E88B00300980858 /* JKRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56B3C1E88B00300980858 /* JKRDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRDemoUITests.m; sourceTree = "<group>"; };
+		43D56B3E1E88B00300980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56B4A1E88B03800980858 /* AppDelegate+JKRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JKRRootViewController.h"; sourceTree = "<group>"; };
+		43D56B4B1E88B03800980858 /* AppDelegate+JKRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JKRRootViewController.m"; sourceTree = "<group>"; };
+		43D56B4D1E88B06400980858 /* JKRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRNavigationViewController.h; sourceTree = "<group>"; };
+		43D56B4E1E88B06400980858 /* JKRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRNavigationViewController.m; sourceTree = "<group>"; };
+		43D56B501E88B07400980858 /* JKRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRHomeViewController.h; sourceTree = "<group>"; };
+		43D56B511E88B07400980858 /* JKRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRHomeViewController.m; sourceTree = "<group>"; };
+		43D56B531E88B08000980858 /* JKRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRMainViewController.h; sourceTree = "<group>"; };
+		43D56B541E88B08000980858 /* JKRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRMainViewController.m; sourceTree = "<group>"; };
+		43D56B561E88BC6C00980858 /* UIView+JKR_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKR_Frame.h"; sourceTree = "<group>"; };
+		43D56B571E88BC6C00980858 /* UIView+JKR_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKR_Frame.m"; sourceTree = "<group>"; };
+		43D56B591E88BE6E00980858 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		43D56B5A1E88C0D200980858 /* JKRProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectViewController.h; sourceTree = "<group>"; };
+		43D56B5B1E88C0D200980858 /* JKRProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectViewController.m; sourceTree = "<group>"; };
+		43D56B5D1E88C0DD00980858 /* JKRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRDetailViewController.h; sourceTree = "<group>"; };
+		43D56B5E1E88C0DD00980858 /* JKRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRDetailViewController.m; sourceTree = "<group>"; };
+		43D56B601E88C0E500980858 /* JKRCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCommentViewController.h; sourceTree = "<group>"; };
+		43D56B611E88C0E500980858 /* JKRCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCommentViewController.m; sourceTree = "<group>"; };
+		43D56B631E88C16500980858 /* JKRTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRTitleView.h; sourceTree = "<group>"; };
+		43D56B641E88C16500980858 /* JKRTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRTitleView.m; sourceTree = "<group>"; };
+		43D56B711E88DCE800980858 /* JKRProjectDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectDetailView.h; sourceTree = "<group>"; };
+		43D56B721E88DCE800980858 /* JKRProjectDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectDetailView.m; sourceTree = "<group>"; };
+		43D56B741E88DD9B00980858 /* JKRProjectTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectTopView.h; sourceTree = "<group>"; };
+		43D56B751E88DD9B00980858 /* JKRProjectTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectTopView.m; sourceTree = "<group>"; };
+		43D56B771E88E00300980858 /* JKRProjectImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectImagesView.h; sourceTree = "<group>"; };
+		43D56B781E88E00300980858 /* JKRProjectImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectImagesView.m; sourceTree = "<group>"; };
+		43D56B7A1E88E04900980858 /* JKRProjectBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectBottomView.h; sourceTree = "<group>"; };
+		43D56B7B1E88E04900980858 /* JKRProjectBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectBottomView.m; sourceTree = "<group>"; };
+		43D56B801E88F23700980858 /* JKRProjectOtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRProjectOtherView.h; sourceTree = "<group>"; };
+		43D56B811E88F23700980858 /* JKRProjectOtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRProjectOtherView.m; sourceTree = "<group>"; };
+		43D56B861E88FEDA00980858 /* JKRCanCloseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCanCloseScrollView.h; sourceTree = "<group>"; };
+		43D56B871E88FEDA00980858 /* JKRCanCloseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCanCloseScrollView.m; sourceTree = "<group>"; };
+		43D56B891E89000300980858 /* JKRImagesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRImagesScrollView.h; sourceTree = "<group>"; };
+		43D56B8A1E89000300980858 /* JKRImagesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRImagesScrollView.m; sourceTree = "<group>"; };
+		43D56B901E89FAC600980858 /* JKRPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRPageView.h; sourceTree = "<group>"; };
+		43D56B911E89FAC600980858 /* JKRPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D56B111E88B00200980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B2A1E88B00300980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B351E88B00300980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D56B0B1E88B00100980858 = {
+			isa = PBXGroup;
+			children = (
+				43D56B161E88B00200980858 /* JKRDemo */,
+				43D56B301E88B00300980858 /* JKRDemoTests */,
+				43D56B3B1E88B00300980858 /* JKRDemoUITests */,
+				43D56B151E88B00200980858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D56B151E88B00200980858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B141E88B00200980858 /* JKRDemo.app */,
+				43D56B2D1E88B00300980858 /* JKRDemoTests.xctest */,
+				43D56B381E88B00300980858 /* JKRDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D56B161E88B00200980858 /* JKRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B591E88BE6E00980858 /* Header.h */,
+				43D56B1A1E88B00200980858 /* AppDelegate.h */,
+				43D56B1B1E88B00200980858 /* AppDelegate.m */,
+				43D56B4A1E88B03800980858 /* AppDelegate+JKRRootViewController.h */,
+				43D56B4B1E88B03800980858 /* AppDelegate+JKRRootViewController.m */,
+				43D56B8E1E8920DC00980858 /* 根视图 */,
+				43D56B8F1E8920EB00980858 /* 产品根视图 */,
+				43D56B691E88D99100980858 /* 产品页面 */,
+				43D56B701E88DCC800980858 /* 产品详情 */,
+				43D56B8C1E8920A500980858 /* 产品评价 */,
+				43D56B8D1E8920B700980858 /* Catogory */,
+				43D56B231E88B00300980858 /* Assets.xcassets */,
+				43D56B251E88B00300980858 /* LaunchScreen.storyboard */,
+				43D56B281E88B00300980858 /* Info.plist */,
+				43D56B171E88B00200980858 /* Supporting Files */,
+			);
+			path = JKRDemo;
+			sourceTree = "<group>";
+		};
+		43D56B171E88B00200980858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B181E88B00200980858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43D56B301E88B00300980858 /* JKRDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B311E88B00300980858 /* JKRDemoTests.m */,
+				43D56B331E88B00300980858 /* Info.plist */,
+			);
+			path = JKRDemoTests;
+			sourceTree = "<group>";
+		};
+		43D56B3B1E88B00300980858 /* JKRDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B3C1E88B00300980858 /* JKRDemoUITests.m */,
+				43D56B3E1E88B00300980858 /* Info.plist */,
+			);
+			path = JKRDemoUITests;
+			sourceTree = "<group>";
+		};
+		43D56B691E88D99100980858 /* 产品页面 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B5A1E88C0D200980858 /* JKRProjectViewController.h */,
+				43D56B5B1E88C0D200980858 /* JKRProjectViewController.m */,
+				43D56B741E88DD9B00980858 /* JKRProjectTopView.h */,
+				43D56B751E88DD9B00980858 /* JKRProjectTopView.m */,
+				43D56B771E88E00300980858 /* JKRProjectImagesView.h */,
+				43D56B781E88E00300980858 /* JKRProjectImagesView.m */,
+				43D56B891E89000300980858 /* JKRImagesScrollView.h */,
+				43D56B8A1E89000300980858 /* JKRImagesScrollView.m */,
+				43D56B901E89FAC600980858 /* JKRPageView.h */,
+				43D56B911E89FAC600980858 /* JKRPageView.m */,
+				43D56B801E88F23700980858 /* JKRProjectOtherView.h */,
+				43D56B811E88F23700980858 /* JKRProjectOtherView.m */,
+				43D56B7A1E88E04900980858 /* JKRProjectBottomView.h */,
+				43D56B7B1E88E04900980858 /* JKRProjectBottomView.m */,
+			);
+			name = "产品页面";
+			sourceTree = "<group>";
+		};
+		43D56B701E88DCC800980858 /* 产品详情 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B5D1E88C0DD00980858 /* JKRDetailViewController.h */,
+				43D56B5E1E88C0DD00980858 /* JKRDetailViewController.m */,
+				43D56B711E88DCE800980858 /* JKRProjectDetailView.h */,
+				43D56B721E88DCE800980858 /* JKRProjectDetailView.m */,
+			);
+			name = "产品详情";
+			sourceTree = "<group>";
+		};
+		43D56B8C1E8920A500980858 /* 产品评价 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B601E88C0E500980858 /* JKRCommentViewController.h */,
+				43D56B611E88C0E500980858 /* JKRCommentViewController.m */,
+			);
+			name = "产品评价";
+			sourceTree = "<group>";
+		};
+		43D56B8D1E8920B700980858 /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B561E88BC6C00980858 /* UIView+JKR_Frame.h */,
+				43D56B571E88BC6C00980858 /* UIView+JKR_Frame.m */,
+			);
+			name = Catogory;
+			sourceTree = "<group>";
+		};
+		43D56B8E1E8920DC00980858 /* 根视图 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B861E88FEDA00980858 /* JKRCanCloseScrollView.h */,
+				43D56B871E88FEDA00980858 /* JKRCanCloseScrollView.m */,
+				43D56B4D1E88B06400980858 /* JKRNavigationViewController.h */,
+				43D56B4E1E88B06400980858 /* JKRNavigationViewController.m */,
+				43D56B501E88B07400980858 /* JKRHomeViewController.h */,
+				43D56B511E88B07400980858 /* JKRHomeViewController.m */,
+			);
+			name = "根视图";
+			sourceTree = "<group>";
+		};
+		43D56B8F1E8920EB00980858 /* 产品根视图 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B531E88B08000980858 /* JKRMainViewController.h */,
+				43D56B541E88B08000980858 /* JKRMainViewController.m */,
+				43D56B631E88C16500980858 /* JKRTitleView.h */,
+				43D56B641E88C16500980858 /* JKRTitleView.m */,
+			);
+			name = "产品根视图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D56B131E88B00200980858 /* JKRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56B411E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemo" */;
+			buildPhases = (
+				43D56B101E88B00200980858 /* Sources */,
+				43D56B111E88B00200980858 /* Frameworks */,
+				43D56B121E88B00200980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRDemo;
+			productName = JKRDemo;
+			productReference = 43D56B141E88B00200980858 /* JKRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D56B2C1E88B00300980858 /* JKRDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56B441E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemoTests" */;
+			buildPhases = (
+				43D56B291E88B00300980858 /* Sources */,
+				43D56B2A1E88B00300980858 /* Frameworks */,
+				43D56B2B1E88B00300980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D56B2F1E88B00300980858 /* PBXTargetDependency */,
+			);
+			name = JKRDemoTests;
+			productName = JKRDemoTests;
+			productReference = 43D56B2D1E88B00300980858 /* JKRDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43D56B371E88B00300980858 /* JKRDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56B471E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemoUITests" */;
+			buildPhases = (
+				43D56B341E88B00300980858 /* Sources */,
+				43D56B351E88B00300980858 /* Frameworks */,
+				43D56B361E88B00300980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D56B3A1E88B00300980858 /* PBXTargetDependency */,
+			);
+			name = JKRDemoUITests;
+			productName = JKRDemoUITests;
+			productReference = 43D56B381E88B00300980858 /* JKRDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D56B0C1E88B00200980858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tronsis_ios;
+				TargetAttributes = {
+					43D56B131E88B00200980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43D56B2C1E88B00300980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43D56B131E88B00200980858;
+					};
+					43D56B371E88B00300980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43D56B131E88B00200980858;
+					};
+				};
+			};
+			buildConfigurationList = 43D56B0F1E88B00200980858 /* Build configuration list for PBXProject "JKRDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D56B0B1E88B00100980858;
+			productRefGroup = 43D56B151E88B00200980858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D56B131E88B00200980858 /* JKRDemo */,
+				43D56B2C1E88B00300980858 /* JKRDemoTests */,
+				43D56B371E88B00300980858 /* JKRDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D56B121E88B00200980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56B271E88B00300980858 /* LaunchScreen.storyboard in Resources */,
+				43D56B241E88B00300980858 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B2B1E88B00300980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B361E88B00300980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D56B101E88B00200980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56B921E89FAC600980858 /* JKRPageView.m in Sources */,
+				43D56B521E88B07400980858 /* JKRHomeViewController.m in Sources */,
+				43D56B4F1E88B06400980858 /* JKRNavigationViewController.m in Sources */,
+				43D56B7C1E88E04900980858 /* JKRProjectBottomView.m in Sources */,
+				43D56B881E88FEDA00980858 /* JKRCanCloseScrollView.m in Sources */,
+				43D56B5C1E88C0D200980858 /* JKRProjectViewController.m in Sources */,
+				43D56B1C1E88B00200980858 /* AppDelegate.m in Sources */,
+				43D56B621E88C0E500980858 /* JKRCommentViewController.m in Sources */,
+				43D56B8B1E89000300980858 /* JKRImagesScrollView.m in Sources */,
+				43D56B5F1E88C0DD00980858 /* JKRDetailViewController.m in Sources */,
+				43D56B791E88E00300980858 /* JKRProjectImagesView.m in Sources */,
+				43D56B551E88B08000980858 /* JKRMainViewController.m in Sources */,
+				43D56B821E88F23700980858 /* JKRProjectOtherView.m in Sources */,
+				43D56B651E88C16500980858 /* JKRTitleView.m in Sources */,
+				43D56B581E88BC6C00980858 /* UIView+JKR_Frame.m in Sources */,
+				43D56B731E88DCE800980858 /* JKRProjectDetailView.m in Sources */,
+				43D56B191E88B00200980858 /* main.m in Sources */,
+				43D56B761E88DD9B00980858 /* JKRProjectTopView.m in Sources */,
+				43D56B4C1E88B03800980858 /* AppDelegate+JKRRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B291E88B00300980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56B321E88B00300980858 /* JKRDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56B341E88B00300980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56B3D1E88B00300980858 /* JKRDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D56B2F1E88B00300980858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D56B131E88B00200980858 /* JKRDemo */;
+			targetProxy = 43D56B2E1E88B00300980858 /* PBXContainerItemProxy */;
+		};
+		43D56B3A1E88B00300980858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D56B131E88B00200980858 /* JKRDemo */;
+			targetProxy = 43D56B391E88B00300980858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D56B251E88B00300980858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D56B261E88B00300980858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D56B3F1E88B00300980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D56B401E88B00300980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D56B421E88B00300980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JKRDemo/Header.h;
+				INFOPLIST_FILE = JKRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43D56B431E88B00300980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JKRDemo/Header.h;
+				INFOPLIST_FILE = JKRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43D56B451E88B00300980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRDemo.app/JKRDemo";
+			};
+			name = Debug;
+		};
+		43D56B461E88B00300980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRDemo.app/JKRDemo";
+			};
+			name = Release;
+		};
+		43D56B481E88B00300980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRDemo;
+			};
+			name = Debug;
+		};
+		43D56B491E88B00300980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D56B0F1E88B00200980858 /* Build configuration list for PBXProject "JKRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56B3F1E88B00300980858 /* Debug */,
+				43D56B401E88B00300980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56B411E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56B421E88B00300980858 /* Debug */,
+				43D56B431E88B00300980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56B441E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56B451E88B00300980858 /* Debug */,
+				43D56B461E88B00300980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56B471E88B00300980858 /* Build configuration list for PBXNativeTarget "JKRDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56B481E88B00300980858 /* Debug */,
+				43D56B491E88B00300980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D56B0C1E88B00200980858 /* Project object */;
+}
