@@ -198,18 +198,8 @@
 			children = (
 				43D56B5A1E88C0D200980858 /* JKRProjectViewController.h */,
 				43D56B5B1E88C0D200980858 /* JKRProjectViewController.m */,
-				43D56B741E88DD9B00980858 /* JKRProjectTopView.h */,
-				43D56B751E88DD9B00980858 /* JKRProjectTopView.m */,
-				43D56B771E88E00300980858 /* JKRProjectImagesView.h */,
-				43D56B781E88E00300980858 /* JKRProjectImagesView.m */,
-				43D56B891E89000300980858 /* JKRImagesScrollView.h */,
-				43D56B8A1E89000300980858 /* JKRImagesScrollView.m */,
-				43D56B901E89FAC600980858 /* JKRPageView.h */,
-				43D56B911E89FAC600980858 /* JKRPageView.m */,
-				43D56B801E88F23700980858 /* JKRProjectOtherView.h */,
-				43D56B811E88F23700980858 /* JKRProjectOtherView.m */,
-				43D56B7A1E88E04900980858 /* JKRProjectBottomView.h */,
-				43D56B7B1E88E04900980858 /* JKRProjectBottomView.m */,
+				43D56BEF1E8A35CF00980858 /* 顶部 */,
+				43D56BF01E8A35D700980858 /* 底部 */,
 			);
 			name = "产品页面";
 			sourceTree = "<group>";
@@ -265,6 +255,32 @@
 				43D56B641E88C16500980858 /* JKRTitleView.m */,
 			);
 			name = "产品根视图";
+			sourceTree = "<group>";
+		};
+		43D56BEF1E8A35CF00980858 /* 顶部 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B741E88DD9B00980858 /* JKRProjectTopView.h */,
+				43D56B751E88DD9B00980858 /* JKRProjectTopView.m */,
+				43D56B771E88E00300980858 /* JKRProjectImagesView.h */,
+				43D56B781E88E00300980858 /* JKRProjectImagesView.m */,
+				43D56B891E89000300980858 /* JKRImagesScrollView.h */,
+				43D56B8A1E89000300980858 /* JKRImagesScrollView.m */,
+				43D56B901E89FAC600980858 /* JKRPageView.h */,
+				43D56B911E89FAC600980858 /* JKRPageView.m */,
+				43D56B801E88F23700980858 /* JKRProjectOtherView.h */,
+				43D56B811E88F23700980858 /* JKRProjectOtherView.m */,
+			);
+			name = "顶部";
+			sourceTree = "<group>";
+		};
+		43D56BF01E8A35D700980858 /* 底部 */ = {
+			isa = PBXGroup;
+			children = (
+				43D56B7A1E88E04900980858 /* JKRProjectBottomView.h */,
+				43D56B7B1E88E04900980858 /* JKRProjectBottomView.m */,
+			);
+			name = "底部";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
